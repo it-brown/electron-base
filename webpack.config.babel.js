@@ -19,7 +19,7 @@ const isProduct = process.env.NODE_ENV == 'production';
  * Webpack Config
  */
 const config = {
-    target: 'node',
+    target: 'electron-main',
     mode: process.env.NODE_ENV,
 
     context: contextPath,
